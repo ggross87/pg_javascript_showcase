@@ -1,0 +1,145 @@
+html, body {
+  line-height: 1.5;
+}
+
+
+.container {
+  max-width: 100%;
+}
+
+
+h2 {
+
+  box-sizing: border-box;
+  color: #eca1a6;
+}
+
+.navbar-collapse {
+    color: #f491a3;
+}
+
+.navbar  {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+
+.figure-img {
+    margin-bottom: .5rem;
+    width: 100%;
+    height: auto;
+    margin-left: 0%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+
+.jumbotron {
+    padding: 4rem 2rem;
+    background-color: #fff;
+}
+
+.card {
+    position: unset;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}
+
+#header-row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  background: #f05374;
+  margin-bottom: inherit;
+  padding: inherit;
+  width: 100%
+}
+
+.header-date {
+  color: #f491a3;
+  font-family: "Andale Mono",AndaleMono,"Lucida Console",monospace;
+  font-size: 2.3em;
+  margin-bottom: 1em;
+}
+
+.header-title {
+  color: #fff;
+  max-width: 300px;
+  font-size: 2.8em;
+  margin-bottom: 34px;
+}
+
+.header-subtitle {
+  max-width: 300px;
+  padding: 1em 0;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  color: #fff;
+  width: 100%;
+}
+
+#card-row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    background: #42C0FB;
+    padding: inherit;
+    width: 100%
+}
+
+.col-lg-12, .col-md-4 {
+    position: unset;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+#meme-row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  margin-top: 2%;
+  background: #FFF;
+  padding: inherit;
+  width: 100%
+}
+
+@media (min-width: 992px)
+.mb-lg-0, .my-lg-0 {
+    /* margin-bottom: 0!important; */
+    padding: 9px;
+}
+
+// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
